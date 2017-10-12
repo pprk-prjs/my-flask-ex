@@ -20,5 +20,5 @@ if __name__ == '__main__':
     else:
         ip = '0.0.0.0'                            #localhost
         port = 8051 
-    
-    app.run(host=ip, port = port)
+   
+    app.run(host=ip, port=port)

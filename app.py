@@ -19,6 +19,6 @@ if __name__ == '__main__':
         port = int(os.environ['OPENSHIFT_PYTHON_PORT'])
     else:
         ip = '0.0.0.0'                            #localhost
-        port = 8051 
+        port = 8080 
    
     app.run(host=ip, port=port)
